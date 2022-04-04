@@ -17,7 +17,6 @@ class Song
         @@count
     end
     def self.artist
-        @@artists.tally
         @@artists.each do |artist| return "#{artist}"
     end
     end
